@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Noto Sans Display", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #fff;
+  background-color: #070707;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container-fluid {
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.btn {
+  display: inline-block;
+  padding: 20px 41px;
+
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+
+  border-radius: 5px;
+  background-color: #b82121;
+  transition: color, background-color, 0.35s;
+  &:hover {
+    color: #fff;
+    background-color: #8a1010;
+  }
+}

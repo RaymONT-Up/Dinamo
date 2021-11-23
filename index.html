@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DINAMO - Грузинская кухня в Москве</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+Display:wght@400;500;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fancyBox -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="header__logo" href="#">
+            <img
+              class="header__logo-icon"
+              src="images/icon/logo.svg"
+              alt="DINAMO - ГРУЗИНСКОЕ БИСТРО"
+            />
+          </a>
+          <nav class="header__menu">
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">главная</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">меню</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">доставка</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">контакты</a>
+              </li>
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="#">акции</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="header__phone" href="tel:+70001234567">+7 (000)123 45 67</a>
+          <ul class="header__social">
+            <li class="header__social-item">
+              <a class="header__social-link" href="#">
+                <img
+                  class="header__social-icon"
+                  alt=""
+                  src="images/icon/insta-social.svg"
+                />
+              </a>
+            </li>
+            <li class="header__social-item">
+              <a class="header__social-link" href="#">
+                <img
+                  class="header__social-icon"
+                  alt=""
+                  src="images/icon/facebook-social.svg"
+                />
+              </a>
+            </li>
+            <li class="header__social-item">
+              <a class="header__social-link" href="#">
+                <img
+                  class="header__social-icon"
+                  alt=""
+                  src="images/icon/twitter-social.svg"
+                />
+              </a>
+            </li>
+          </ul>
+          <div class="header__burger">
+            <div class="header__burger-item"></div>
+            <div class="header__burger-item"></div>
+            <div class="header__burger-item"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <main class="main">
+        <section class="hero">
+          <div class="container">
+            <div class="hero__inner">
+              <h1 class="hero__title">
+                Попробуй лучшую
+                <span class="hero__title--2">грузинскую</span>
+                кухню в Москве.
+              </h1>
+              <p class="hero__paragraph">
+                В нашем ресторане Вы найдете лучшие блюда приготвленные по
+                старинным рецептам грузинской кухни. Потрясающий вкус блюд
+                перенесет Вас к атмосферу невероятного Тбилисси не выходя из
+                дома.
+              </p>
+              <a class="hero__btn btn" href="#menu">ПЕРЕЙТИ К МЕНЮ</a>
+              <img
+                class="hero__tomato-img"
+                src="images/decor/tomato.png"
+                alt="Помидор"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="menu" id="menu">
+          <div class="container">
+            <div class="menu__inner">
+              <div class="menu__top">
+                <h2 class="menu__title">Попробуйте на вкус</h2>
+                <p class="menu__paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam pretium netus urna hendrerit convallis aliquam
+                  consequat turpis.
+                </p>
+                <ul class="menu__list">
+                  <li class="menu__item menu__item--1">
+                    <img
+                      src="images/decor/grass-1--small.png"
+                      class="menu__decor--1"
+                      alt=""
+                    />
+                    <img
+                      class="menu__item-image"
+                      src="images/menu-1.png"
+                      alt="Грузинский лашав фото"
+                    />
+                    <h3 class="menu__item-title">Грузинский лаваш</h3>
+                  </li>
+                  <li class="menu__item">
+                    <img
+                      class="menu__item-image"
+                      src="images/menu-2.png"
+                      alt="Грузинские пельмени фото"
+                    />
+                    <h3 class="menu__item-title">Грузинские пельмени</h3>
+                  </li>
+                  <li class="menu__item">
+                    <img
+                      class="menu__item-image"
+                      src="images/menu-3.png"
+                      alt="Грузинское мясо фото"
+                    />
+                    <h3 class="menu__item-title">Грузинское мясо</h3>
+                  </li>
+                </ul>
+                <a class="menu__btn btn" href="#delivery">ПЕРЕЙТИ К ДОСТАВКЕ</a>
+                <img
+                  src="images/decor/grass-2--big.png"
+                  class="menu__decor--2"
+                  alt=""
+                />
+                <img
+                  src="images/decor/chamomile.png"
+                  class="menu__decor--3"
+                  alt=""
+                />
+              </div>
+
+              <div class="menu__bottom">
+                <h2 class="menu__title">Меню</h2>
+                <p class="menu__paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam pretium netus urna hendrerit convallis aliquam
+                  consequat turpis.
+                </p>
+
+                <div class="menu__slider swiper">
+                  <div class="menu__slider-wrapper swiper-wrapper">
+                    <div class="menu__slider-item swiper-slide">
+                      <a href="#" class="menu__slider-item-wrapper">
+                        <img
+                          src="images/content-menu/salad.jpg"
+                          alt="Грузинские салаты фото"
+                          class="menu__slider-img"
+                        />
+                        <h4 class="menu__slider-title">Салаты</h4>
+                        <div class="menu__slider-btn">Открыть меню</div>
+                      </a>
+                    </div>
+                    <div class="menu__slider-item swiper-slide">
+                      <a href="" class="menu__slider-item-wrapper">
+                        <img
+                          src="images/content-menu/bakery.jpg"
+                          alt="Грузинская выпечка фото"
+                          class="menu__slider-img"
+                        />
+                        <h4 class="menu__slider-title">Выпечка</h4>
+                        <div class="menu__slider-btn">Открыть меню</div>
+                      </a>
+                    </div>
+                    <div class="menu__slider-item swiper-slide">
+                      <a href="#" class="menu__slider-item-wrapper">
+                        <img
+                          src="images/content-menu/soups.jpg"
+                          alt="Грузинские супы фото"
+                          class="menu__slider-img"
+                        />
+                        <h4 class="menu__slider-title">Супы</h4>
+                        <div class="menu__slider-btn">Открыть меню</div>
+                      </a>
+                    </div>
+                    <div class="menu__slider-item swiper-slide">
+                      <a href="#" class="menu__slider-item-wrapper">
+                        <img
+                          src="images/content-menu/brazier.jpg"
+                          alt="Грузинские блюда на мангале фото"
+                          class="menu__slider-img"
+                        />
+                        <h4 class="menu__slider-title">Блюда на мангале</h4>
+                        <div class="menu__slider-btn">Открыть меню</div>
+                      </a>
+                    </div>
+                    <div class="menu__slider-item swiper-slide">
+                      <a href="#" class="menu__slider-item-wrapper">
+                        <img
+                          src="images/content-menu/hotter.jpg"
+                          alt="Горячие блюда фото"
+                          class="menu__slider-img"
+                        />
+                        <h4 class="menu__slider-title">Горячие блюда</h4>
+                        <div class="menu__slider-btn">Открыть меню</div>
+                      </a>
+                    </div>
+                    <div class="menu__slider-item swiper-slide">
+                      <a href="#" class="menu__slider-item-wrapper">
+                        <img
+                          src="images/content-menu/sauce.jpg"
+                          alt="Соусы фото "
+                          class="menu__slider-img"
+                        />
+                        <h4 class="menu__slider-title">Соусы</h4>
+                        <div class="menu__slider-btn">Открыть меню</div>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div
+                    class="
+                      menu__slider-arrow menu__slider-prev
+                      swiper-button-prev
+                    "
+                  >
+                    <img
+                      class="menu__slider-arrow-icon"
+                      src="images/icon/arrow-prev.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="
+                      menu__slider-arrow menu__slider-next
+                      swiper-button-next
+                    "
+                  >
+                    <img
+                      class="menu__slider-arrow-icon"
+                      src="images/icon/arrow-next.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="delivery" id="delivery">
+          <div class="container">
+            <div class="delivery__inner">
+              <h5 class="delivery__title">Удобные способы доставки</h5>
+              <p class="delivery__paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                pretium netus urna hendrerit convallis aliquam consequat turpis.
+              </p>
+              <img
+                class="delivery__decor--1"
+                src="images/decor/grass-2--big.png"
+                alt=""
+              />
+              <img
+                class="delivery__decor--2"
+                src="images/decor/grass-2--big.png"
+                alt=""
+              />
+              <img
+                class="delivery__decor--3"
+                src="images/decor/tomato.png"
+                alt=""
+              />
+              <div class="delivery__box">
+                <ul class="delivery__info">
+                  <li class="delivery__item">
+                    <img
+                      class="delivery__item-icon"
+                      alt="icon dinamo"
+                      src="images/icon/dinamo-icon.svg"
+                    />
+                    <p class="delivery__item-paragraph">
+                      Доставка при помощи наших курьеров при заказе от 2000 ₽
+                    </p>
+                  </li>
+                  <li class="delivery__item">
+                    <img
+                      class="delivery__item-icon"
+                      alt="icon delivery"
+                      src="images/icon/eclipse.svg"
+                    />
+                    <p class="delivery__item-paragraph">
+                      Доставка при помощи наших курьеров при заказе от 2500 ₽
+                    </p>
+                  </li>
+                  <li class="delivery__item">
+                    <img
+                      class="delivery__item-icon"
+                      alt="icon delivery"
+                      src="images/icon/delivery-club.svg"
+                    />
+                    <p class="delivery__item-paragraph">
+                      Доставка при помощи наших курьеров при заказе от 1000 ₽
+                    </p>
+                  </li>
+                </ul>
+                <div class="delivery__image-wrapper">
+                  <img
+                    class="delivery__image"
+                    src="images/delivery-img.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="dishes">
+          <div class="container-fluid">
+            <div class="dishes__inner">
+              <div class="dishes__slider-1 swiper">
+                <div class="dishes__slider-wrapper swiper-wrapper">
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal1dishesh.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal1dishesh.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal2dishesh.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal2dishesh.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal3dishes.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal3dishes.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal4dishes.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal4dishes.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal5dishes.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal5dishes.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal6dishes.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal6dishes.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal7dishes.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal7dishes.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal8dishes.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal8dishes.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="dishes__slider-2 swiper">
+                <div class="dishes__slider-wrapper swiper-wrapper">
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal1dishesh.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal1dishesh.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal2dishesh.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal2dishesh.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal3dishes.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal3dishes.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal4dishes.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal4dishes.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal5dishes.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal5dishes.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal6dishes.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal6dishes.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal7dishes.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal7dishes.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="dishes__slider-item swiper-slide">
+                    <a
+                      class="dishes__slider-link"
+                      href="images/content-dishes/gal8dishes.jpg"
+                      data-fancybox="gallery"
+                    >
+                      <img
+                        class="dishes__slider-image"
+                        src="images/content-dishes/gal8dishes.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <ul class="footer__top-list">
+              <li class="footer__top-item">
+                <a class="footer__logo" href="">
+                  <img
+                    class="footer__logo-img"
+                    src="images/icon/logo.svg"
+                    alt=""
+                  />
+                </a>
+              </li>
+              <li class="footer__top-item">
+                <a class="footer__phone" href="tel:7234569998">
+                  +7 (123) 456-99-98
+                </a>
+                <div class="footer__social">
+                  <a href="#" class="footer__social-link">
+                    <img
+                      src="images/icon/telegram.svg"
+                      alt=""
+                      class="footer__social-icon"
+                    />
+                  </a>
+                  <a href="#" class="footer__social-link">
+                    <img
+                      src="images/icon/whatsap.svg"
+                      alt=""
+                      class="footer__social-icon"
+                    />
+                  </a>
+                  <a href="#" class="footer__social-link">
+                    <img
+                      src="images/icon/viber.svg"
+                      alt=""
+                      class="footer__social-icon"
+                    />
+                  </a>
+                </div>
+              </li>
+              <li class="footer__top-item">
+                <address class="footer__address">
+                  г. Москва, район стадиона Динамо (ныне ВТБ Арена).
+                </address>
+              </li>
+              <li class="footer__top-item">
+                <a href="mailto:mail@mal.ru" class="footer__email">
+                  Email: mail@mal.ru
+                </a>
+              </li>
+            </ul>
+            <div class="footer__bottom">
+              <a class="footer__bottom-link" href="#">
+                Политика конфиденциальности
+              </a>
+              <a class="footer__bottom-link" href="#">
+                Пользовательское соглашение
+              </a>
+
+              <div class="footer__bottom-text">
+                Динамо. Грузинское бистро. Все права защищены, 2021
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- fancyBox  -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
